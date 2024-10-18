@@ -1,4 +1,4 @@
-import FilterItem from "./filterItem";
+import FilterItem from "./FilterItem";
 import { FaPizzaSlice } from "react-icons/fa";
 import { IoFastFood } from "react-icons/io5";
 import { IoIosPricetag } from "react-icons/io";

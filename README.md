@@ -27,7 +27,7 @@ This is a React-based application designed to showcase a collection of products 
 
 ▎Screenshot
 
-<img width="1470" alt="Screenshot 1403-07-27 at 20 14 41" src="https://github.com/user-attachments/assets/a2d7f9b0-dc56-4cd5-aec4-9ce9f555c5cd">
+<img width="1470" alt="Screenshot 1403-07-27 at 20 14 41" src="https://github.com/user-attachments/assets/38803545-063b-404e-8fe8-1c8679f27036">
 
 ▎Getting Started
 

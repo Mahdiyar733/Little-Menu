@@ -23,6 +23,8 @@ This is a React-based application designed to showcase a collection of products 
 
 • JavaScript: For dynamic functionality.
 
+• TypeScipt: For static types.
+
 • Tailwind CSS: For styling the components and ensuring a responsive design.
 
 ▎Screenshot

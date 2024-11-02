@@ -1,4 +1,4 @@
-
+# Little-Menu
 ▎Overview
 
 This is a React-based application designed to showcase a collection of products with an intuitive search and pagination feature. Users can easily search for products by name and navigate through the results seamlessly. The app leverages React Query for efficient data fetching and state management, providing a smooth user experience.
@@ -27,7 +27,7 @@ This is a React-based application designed to showcase a collection of products 
 
 ▎Screenshot
 
-<img width="1470" alt="Screenshot 1403-07-27 at 20 14 41" src="https://github.com/user-attachments/assets/a2d7f9b0-dc56-4cd5-aec4-9ce9f555c5cd">
+<img width="1470" alt="Screenshot 1403-07-27 at 20 14 41" src="https://github.com/user-attachments/assets/38803545-063b-404e-8fe8-1c8679f27036">
 
 ▎Getting Started
 
@@ -56,4 +56,4 @@ To get started with the app, follow these steps:
 ▎Contributing
 
 Contributions are welcome! If you have suggestions for improvements or new features, please feel free to submit a pull request or open an issue.
-# Little-Menu
+

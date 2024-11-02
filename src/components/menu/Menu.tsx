@@ -1,3 +1,4 @@
+import React from "react";
 import { Context } from "../context";
 import { useContext } from "react";
 import PaginateBtns from "../common/paginateBtns";
@@ -7,6 +8,12 @@ import MenuList from "./MenuList";
 import Spinner from "../common/spinner";
 
 function Menu() {
+	const context = useContext(Context);
+
+	if (!context) {
+		return null;
+	}
+
 	const {
 		sortBy,
 		isPending,
@@ -15,7 +22,7 @@ function Menu() {
 		inputVal,
 		currentPage,
 		setCurrentPage,
-	} = useContext(Context);
+	} = context;
 
 	const itemsPerPage = 5;
 
@@ -48,11 +55,12 @@ function Menu() {
 	const currentItems = filteredData.slice(indexOfFirstItem, indexOfLastItem);
 	const totalPages = Math.ceil(filteredData.length / itemsPerPage);
 
-	const handlePageChange = (pageNumber) => {
+	const handlePageChange = (pageNumber: number) => {
 		setCurrentPage(pageNumber);
 	};
 
-	if (error) return "An error has occurred: " + error.message;
+	// if (error) return "An error has occurred: " + error?.message;
+	console.log("error : ", error);
 
 	return (
 		<div className="flex flex-col justify-center items-center gap-5">

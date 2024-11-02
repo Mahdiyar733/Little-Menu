@@ -1,5 +1,12 @@
+import React, { ReactNode } from "react";
+type Titem = {
+	handler: () => React.Dispatch<React.SetStateAction<string>> | void;
+	icon: ReactNode;
+	name: string;
+	isCurrentFilter?: boolean;
+};
 /* eslint-disable react/prop-types */
-function FilterItem({ handler, icon, name, isCurrentFilter }) {
+function FilterItem({ handler, icon, name, isCurrentFilter }: Titem) {
 	return (
 		<div
 			className={`w-24 min-w-24 text-sm h-20 ${

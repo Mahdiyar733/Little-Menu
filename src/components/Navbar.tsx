@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import Skeleton from "./common/skeleton";
+import React from "react";
 function Navbar() {
 	const [isLoadingImg, setIsLaodingImg] = useState(true);
 	return (

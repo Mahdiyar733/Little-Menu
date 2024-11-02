@@ -2,7 +2,16 @@
 import { useState } from "react";
 import { AiOutlineLike } from "react-icons/ai";
 import Skeleton from "../common/skeleton";
-function MenuItem({ item }) {
+import React from "react";
+
+type TItem = {
+	name?: string;
+	soldOut?: boolean;
+	unitPrice?: number;
+	imageUrl?: string;
+};
+
+function MenuItem({ item }: { item: TItem }) {
 	const { name, soldOut, unitPrice, imageUrl } = item;
 	const [isLoadingImg, setIsLoadingImg] = useState(true);
 

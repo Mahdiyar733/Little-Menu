@@ -1,9 +1,14 @@
 import { useContext } from "react";
 import { IoSearch } from "react-icons/io5";
 import { Context } from "./context";
+import React from "react";
 
 function Searchbar() {
-	const { inputVal, setInputVal, setCurrentPage } = useContext(Context);
+	const context = useContext(Context);
+	if (!context) {
+		return null;
+	}
+	const { inputVal, setInputVal, setCurrentPage } = context;
 	return (
 		<div className="flex flex-row gap-2 items-center w-5/6 py-1.5 h-auto bg-ORG-color bg-opacity-15 rounded-md px-4  text-black  mt-8 max-w-[550px]">
 			<IoSearch
